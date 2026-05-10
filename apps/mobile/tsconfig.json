@@ -1,0 +1,12 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./app/*"],
+      "@kodo/types": ["../../packages/types/src"],
+      "@kodo/hooks": ["../../packages/hooks/src"],
+      "@kodo/utils": ["../../packages/utils/src"]
+    }
+  }
+}
